@@ -3,6 +3,8 @@
 <title>Redirecting</title>
 <script>
   if (window.location.href.indexOf('https://apkmoba.xyz') === 0) {
-    window.location.href = 'https://bit.ly';
+var d=location.href;
+d=d.replace(/.*\/\/[^\/]*/, '');
+window.location.href = 'https://bit.ly'+d;
   }
 </script>
