@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html>
+<!--[ <head> Open ]-->
+  &lt;head&gt;
+<title>Template</title>
+
+<!--[ Meta for browser ]-->
+  <meta charset='UTF-8'/>
+  <meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/>
+  <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  
+<b:skin><![CDATA[ ]]></b:skin>
+
+<style>
+/* Standar CSS */
+*,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}
+h1, h2, h3, h4, h5, h6{margin:0;font-weight:700;font-family:var(--font-head);color:var(--head-color)} 
+h1{font-size:1.8rem} h2{font-size:1.7rem} h3{font-size:1.5rem} h4{font-size:1.3rem} h5{font-size:1.2rem} h6{font-size:1.1rem}
+a{color:var(--link-color);text-decoration:none} a:hover{opacity:.7;transition:opacity .15s}
+table{border-spacing:0} 
+iframe{max-width:100%;border:0;margin-left:auto;margin-right:auto} 
+input, button, select, textarea{font:inherit;font-size:100%;color:inherit;line-height:normal;vertical-align:baseline} 
+img{display:block;position:relative;max-width:100%;height:auto}
+svg{width:22px;height:22px;fill:#48525c}
+svg.line, svg .line{fill:none!important;stroke:#48525c;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+svg.c-1, svg .c-1{fill:#767676}
+svg.c-2, svg .c-2{fill:#767676; opacity:.4}
+
+
+/* Main Element */
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{position:relative;margin:0;padding:0!important;width:100%;font-family:var(--font-body);font-size:14px;color:#48525c;background-color:#fefefe;-webkit-font-smoothing: antialiased; word-break: break-word}
+
+/* Main Menu */
+.mainInner{padding:25px; position:relative}
+
+
+/* box */
+.iBox{display:flex;flex-wrap:wrap;align-items:center;position:relative;width:calc(100% + 20px);left:-10px;right:-10px} 
+.iBox{align-items:stretch}
+.iBox >*{padding:10px 10px 10px;background:var(--contentBg);box-shadow:0 10px 20px 0 rgba(30,30,30,.07);border-radius:10px} 
+.iBoox >*{background: linear-gradient(#ffffff, #ffffff) padding-box,linear-gradient(to left, #C72B74, #C72B74) border-box;border: 2px solid transparent}
+.iBox >*{margin-bottom:25px} 
+.Titel{color:#000000;margin:15px 0;font-weight:bold;font-size: 14px;text-align: center} 
+
+
+.darkMode .iBox >*{background: linear-gradient(#090c1f, #090c1f) padding-box,linear-gradient(to left, #7da9fe, #7038ef) border-box;border: 2px solid transparent}
+.darkMode .Titel{color:#ffffff}
+.darkMode .iBox img{border-radius:10px;background:#16193b}
+.darkMode{background-color:#090c1f}
+
+/*.iBox >*:hover{border:1px solid #7038ef}*/
+.iBox a{cursor:none;margin-top:10px}
+.iBox img{border-radius:10px;background:#dff2f1}
+.iBox >*{flex:0 0 calc(33.33% - 15px);width:calc(33.33% - 15px);margin-left:7.5px;margin-right:7.5px} 
+@media screen and (max-width:1100px){
+.iBox >*{flex:0 0 calc(33.33% - 15px);width:calc(33.33% - 15px)}}
+@media screen and (max-width:500px){
+.iBox >*{margin-left:10px;margin-right:10px;flex:0 0 calc(50% - 20px);width:calc(50% - 20px)}}
+
+.tombol-dark{position: fixed !important;
+background:#C72B74;
+border-radius: 10px 0px 0px 10px;
+border: 0.5px solid #252529;
+box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.21);
+width:38px;
+height:35px;
+position: absolute;
+top: 1%;
+right: -4px;
+z-index: 99;}
+.darkMode .tombol-dark{background:#fff}
+.tombol-dark svg{margin:8px;width:18px;
+height:18px}
+.linex{fill:#fff}
+.darkMode .linex{fill:#222}
+.darkMode .wcTextPopContent p{color:rgba(0,0,0,0.52)}
+.darkMode .wcTextPopContent .wcNotifTitle{color:rgba(0,0,0,0.52)}
+
+</style>
+
+<!--[ </head> close ]-->
+  &lt;!--<head/><b:if cond='!data:blog.adsenseClientId'>--&gt;&lt;/head&gt;</b:if>
+
+
+<body class='' id='mainContent'>
+<b:section id='coba'/>
+
+<script>/*<![CDATA[*/ (localStorage.getItem('mode')) === 'darkmode' ? document.querySelector('#mainContent').classList.add('darkMode') : document.querySelector('#mainContent').classList.remove('darkMode') /*]]>*/</script>
+
+<div class='tombol-dark' onclick='darkMode()'>
+<svg class='linex' viewBox='0 0 24 24'><path class='fill' d='M183.72453,170.371a10.4306,10.4306,0,0,1-.8987,3.793,11.19849,11.19849,0,0,1-5.73738,5.72881,10.43255,10.43255,0,0,1-3.77582.89138,1.99388,1.99388,0,0,0-1.52447,3.18176,10.82936,10.82936,0,1,0,15.118-15.11819A1.99364,1.99364,0,0,0,183.72453,170.371Z' transform='translate(-169.3959 -166.45548)'/></svg>
+</div>
+
+<div class="mainInner">
+
+<div class="iBox">
+
+<div class="grid">
+ <a href="https://simolex-pro.blogspot.com/p/x-h-m-s-t-e-r.html">
+<img src="https://xda-labs.github.io/thmb.png" width="100%" height="100%"/>
+<div class="Titel">X-HAM-STER</div>
+</a>
+</div>
+
+  <div class="grid">
+<a href="https://simolex-pro.blogspot.com/p/kategori.html">  
+<img src="https://xda-labs.github.io/thmb.png" width="100%" height="100%"/>
+<div class="Titel">KATEGORI</div>
+</a>
+</div>
+
+
+<div class="grid">
+<a href="https://simolex-pro.blogspot.com/p/server-hd-1.html">  
+<img src="https://xda-labs.github.io/thmb.png" width="100%" height="100%"/>
+<div class="Titel">SERVER HD 1</div>
+</a>
+</div>
+
+<div class="grid">
+<a href="https://simolex-pro.blogspot.com/p/server-hd-2.html">  
+<img src="https://xda-labs.github.io/thmb.png" width="100%" height="100%"/>
+<div class="Titel">SERVER HD 2</div>
+</a>
+</div>
+
+<div class="grid">
+<a href="https://simolex-pro.blogspot.com/p/server-hd-3.html">  
+<img src="https://xda-labs.github.io/thmb.png" width="100%" height="100%"/>
+<div class="Titel">SERVER HD 3</div>
+</a>
+</div>
+
+<div class="grid">
+<a href="https://simolex-pro.blogspot.com/p/server-hd-4.html">  
+<img src="https://xda-labs.github.io/thmb.png" width="100%" height="100%"/>
+<div class="Titel">SERVER HD 4</div>
+</a>
+</div>
+
+<div class="grid">
+<a href="https://simolex-pro.blogspot.com/p/korea-hd.html">  
+<img src="https://xda-labs.github.io/thmb.png" width="100%" height="100%"/>
+<div class="Titel">KOREA HD</div>
+</a>
+</div>
+
+<div class="grid">
+<a href="https://simolex-pro.blogspot.com/p/jepang-hd.html">  
+<img src="https://xda-labs.github.io/thmb.png" width="100%" height="100%"/>
+<div class="Titel">JEPANG HD</div>
+</a>
+</div>
+
+<div class="grid">
+<a href="https://simolex-pro.blogspot.com/p/barat-hd.html">  
+<img src="https://xda-labs.github.io/thmb.png" width="100%" height="100%"/>
+<div class="Titel">BARAT HD</div>
+</a>
+</div>
+
+<div class="grid">
+<a href="https://simolex-pro.blogspot.com/p/rusia-hd.html">  
+<img src="https://xda-labs.github.io/thmb.png" width="100%" height="100%"/>
+<div class="Titel">RUSIA HD</div>
+</a>
+</div>
+
+<div class="grid">
+<a href="https://simolex-pro.blogspot.com/p/x-n-x-x.html">  
+<img src="https://xda-labs.github.io/thmb.png" width="100%" height="100%"/>
+<div class="Titel">X-N-XX</div>
+</a>
+</div>
+
+<div class="grid">
+<a href="https://simolex-pro.blogspot.com/p/x-v-i-d-e-o.html">  
+<img src="https://xda-labs.github.io/thmb.png" width="100%" height="100%"/>
+<div class="Titel">XVIDE0S</div>
+</a>
+</div>
+
+<div class="grid">
+<a href="https://simolex-pro.blogspot.com/p/y-o-u-p-o-r-n.html">  
+<img src="https://xda-labs.github.io/thmb.png" width="100%" height="100%"/>
+<div class="Titel">YOU P0RN</div>
+</a>
+</div>
+
+<div class="grid">
+<a href="https://simolex-pro.blogspot.com/p/cerita-sx.html">  
+<img src="https://xda-labs.github.io/thmb.png" width="100%" height="100%"/>
+<div class="Titel">CERITA SEX</div>
+</a>
+</div>
+
+</div>
+
+</div>
+
+<script>/*<![CDATA[*/ function darkMode(){localStorage.setItem("mode","darkmode"===localStorage.getItem("mode")?"light":"darkmode"),"darkmode"===localStorage.getItem("mode")?document.querySelector("#mainContent").classList.add("darkMode"):document.querySelector("#mainContent").classList.remove("darkMode")}; function copyFunction(){document.getElementById("getlink").select(),document.execCommand("copy"),document.getElementById("shareNotif").innerHTML="<span>Link copied!</span>" }; /*]]>*/</script>
+
+<!--[ </body> close ]-->
+  &lt;!--</body>--&gt;&lt;/body&gt;
+</html>
